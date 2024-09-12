@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_body{
+            height:100px;
+            width:100px;
+            border:1px solid rgb(170, 166, 166);
+            border-top:1px solid rgb(14, 13, 13);
+            border-radius:50%;
+            animation:spin .8s infinite linear;
+        }
+        @keyframes spin{
+            0%{
+                rotate:0deg
+            }
+            100%{
+                rotate:360deg
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main_body"></div>
+</body>
+</html>
